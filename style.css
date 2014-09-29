@@ -152,7 +152,7 @@ line-height:20px;
 /*.getquote{background:url(images/quote_bg.jpg) 0 0 no-repeat;width:210px;height:273px;float:left;position:relative;margin:4px 0 0;}
 .getquote input{background:transparent;border:0;margin:0;width:162px;height:22px;position:absolute;left:20px;text-align:right;color:#928F8A;line-height:22px;}
 */
-.sideContact{background:url(images/ContactHe.gif) 0 0 no-repeat;width:210px;height:380px;float:left;position:relative;margin:4px 0 0;}
+.sideContact{background:url(images/ContactHe.gif) 0 0 no-repeat;width:221px;height:380px;float:left;position:relative;margin:4px 0 0;}
 .sideContact input{background:transparent;border:0;margin:0;width:162px;height:22px;position:absolute;left:20px;text-align:right;color:#928F8A;line-height:22px;}
 
 .origval{display:none;}
