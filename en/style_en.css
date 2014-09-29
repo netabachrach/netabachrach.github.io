@@ -155,7 +155,7 @@ text-align:left;
 #hp p.bul{margin-top:12px;}
 #hp p.p1.bul{margin-top:22px;}
 
-.sideContact{background:url(images/ContactUs.gif) 0 0 no-repeat;width:210px;height:380px;float:left;position:relative;margin:4px 0 0;}
+.sideContact{background:url(images/ContactUs.gif) 0 0 no-repeat;width:221px;height:380px;float:left;position:relative;margin:4px 0 0;}
 .sideContact input{background:transparent;border:0;margin:0;width:162px;height:22px;position:absolute;left:20px;text-align:left;color:#928F8A;line-height:22px;}
 
 .origval{display:none;}
