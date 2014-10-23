@@ -132,14 +132,14 @@ Inheritors that are interested in transferring the care of their property to an 
 	<div class="sideContact">		
 	<div id="uphone"> Tel: 077-4342470</div>
 	<div id="umail">Mail: <a href="mailto:neta.bachrach@gmail.com">neta.bachrach@gmail.com</a></div>
-	
-		<span class="origval">Name</span><input type="text" value="Name" id="qname"><span class="noname">Required</span>
-		<span class="origval">Email</span><input type="text" value="Email" id="qmail"><span class="nomail">Required</span><span class="malmail">Invalid email</span>	
-		<span class="origval">Tel</span><input type="text" value="Tel" id="qphone">	
-		<span class="origval">Message</span><textarea id="qdetails">Message</textarea>
-		<a onclick="contact_qEn();return false;" href="" id="qsend">
-			<img alt="" src="images/send.gif">
-		</a>
+		<form method="POST" action="http://forms.brace.io/neta.bachrach@gmail.com">
+		<span class="origval">Name</span><input type="text" value="Name" name="name" id="qname"><span class="noname">Required</span>
+		<span class="origval">Email</span><input type="email" name="_replyto" value="Email" id="qmail"><span class="nomail">Required</span><span class="malmail">Invalid email</span>	
+		<span class="origval">Tel</span><input type="text" name="phone" value="Tel" id="qphone">	
+		<span class="origval">Message</span><textarea name="content" id="qdetails">Message</textarea>
+		<input type="hidden" name="_next" value="http://www.homenaway.co.il/en/who.html" />
+		<button type="submit" style="display: block;position: absolute;top: 300px;left: 17px;width: 169px; height:41px; font-size:19px; border-radius:10px; border-style:none; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#F0DB8D), to(#FEc445));">Send >></button>	
+		</form>
 	</div>   
 	
 	
