@@ -224,14 +224,14 @@
 	
 	<div id="uphone"> טלפון: 077-4342470</div>
 	<div id="umail">מייל: <a href="mailto:neta.bachrach@gmail.com">neta.bachrach@gmail.com</a></div>
-	
-		<span class="origval">שם</span><input type="text" value="שם" id="qname"><span class="noname">שדה חובה</span>
-		<span class="origval">דוא&quot;ל</span><input type="text" value="דוא&quot;ל" id="qmail"><span class="nomail">שדה חובה</span><span class="malmail">כתובת לא תקינה</span>	
-		<span class="origval">טלפון</span><input type="text" value="טלפון" id="qphone">	
-		<span class="origval">תוכן הפניה</span><textarea id="qdetails">תוכן הפניה</textarea>
-		<a onclick="contact_q();return false;" href="" id="qsend">
-			<img alt="" src="images/shlach.png">
-		</a>
+			<form method="POST" action="http://forms.brace.io/neta.bachrach@gmail.com">
+		<span class="origval">שם</span><input type="text" value="שם" name="name" id="qname"><span class="noname">שדה חובה</span>
+		<span class="origval">דוא&quot;ל</span><input type="email" name="_replyto" value="דוא&quot;ל" id="qmail"><span class="nomail">שדה חובה</span><span class="malmail">כתובת לא תקינה</span>	
+		<span class="origval">טלפון</span><input type="text" name="phone" value="טלפון" id="qphone">	
+		<span class="origval">תוכן הפניה</span><textarea name="content" id="qdetails">תוכן הפניה</textarea>
+		<input type="hidden" name="_next" value="http://www.homenaway.co.il/services.html" />
+		<button type="submit" style="display: block;position: absolute;top: 300px;left: 17px;width: 169px; height:41px; font-size:19px; border-radius:10px; border-style:none; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#F0DB8D), to(#FEc445));">שלח >></button>	
+		</form>
 	</div>   
 	
 	
