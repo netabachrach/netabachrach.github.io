@@ -220,14 +220,12 @@ E-mail: matty.dcm@gmail.com
 	<div id="uphone"> טלפון: 077-4342470</div>
 	<div id="umail">מייל: <a href="mailto:neta.bachrach@gmail.com">neta.bachrach@gmail.com</a></div>
 		<form method="POST" action="http://forms.brace.io/neta.bachrach@gmail.com">
-		<input type="text" style="background:blue;" name="name"><br><br>
-		<input type="email" style="background:blue;" name="_replyto"><br><br>
+		<span class="origval">שם</span><input type="text" value="שם" name="name" id="qname"><span class="noname">שדה חובה</span>
+		<span class="origval">דוא&quot;ל</span><input type="email" name="_replyto" value="דוא&quot;ל" id="qmail"><span class="nomail">שדה חובה</span><span class="malmail">כתובת לא תקינה</span>	
+		<span class="origval">טלפון</span><input type="text" name="phone" value="טלפון" id="qphone">	
+		<span class="origval">תוכן הפניה</span><textarea name="content" id="qdetails">תוכן הפניה</textarea>
 		<input type="hidden" name="_next" value="http://www.homenaway.co.il/FormTesting.html" />
-		<button type="submit">Send</button>
-<!-- 		<a onclick="contact_q();return false;" href="" id="qsend">
-			<img alt="" src="images/shlach.png">
-		</a>
- -->		
+		<button type="submit" style="display: block;position: absolute;top: 300px;left: 14px;width: 176px;">שלח</button>	
 		</form>
 	</div>   
 	
