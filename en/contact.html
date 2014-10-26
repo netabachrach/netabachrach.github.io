@@ -78,6 +78,7 @@
 	</div>
 	
 <div id="dform">
+	<form method="POST" action="http://forms.brace.io/neta.bachrach@gmail.com">
 	<div id="labels">
 		<p class="p16">Name </p>
 		<p class="p16">Email </p>
@@ -86,23 +87,22 @@
 		<p class="p16">Message </p>
 	</div>
 	<div id="inputs">
-	<p class="p16"><input id="name" type="text"></p>
-	<p class="p16"><input id="email" type="text"></p>
-	<p class="p16"><input id="tel" type="text"></p>
-	<p class="p16"><input id="city" type="text"></p>
-	<p class="p16"><textarea id="details"></textarea></p>
+	<p class="p16"><input id="name" name="name" type="text"></p>
+	<p class="p16"><input id="email" name="_replyto" type="text"></p>
+	<p class="p16"><input id="tel" name="phone" type="text"></p>
+	<p class="p16"><input id="city" name="city" type="text"></p>
+	<p class="p16"><textarea id="details" name="content"></textarea></p>
 	</div>
 
 
 <div style="clear:both;"></div>
 
 <div id="contact_send">
-<a href="" onclick="sendMeEn();return false;">
-	<img src="images/contact_send.png" alt="">
-</a>
+		<button type="submit" style="display: block;position: absolute;top: 34px;left: 375px; width: 169px; height:41px; font-size:19px; border-radius:10px; border-style:none; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#F0DB8D), to(#FEc445));">Contact us >></button>	
 <br>
 <div id="fid"></div>
 </div>
+</form>
 </div>
 
 </div>
