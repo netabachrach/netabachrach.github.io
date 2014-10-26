@@ -82,6 +82,7 @@
 	</p>
 </div>
 <div id="dform">
+	<form method="POST" action="http://forms.brace.io/neta.bachrach@gmail.com">
 	<div id="labels">
 		<p class="p18">שם </p>
 		<p class="p18">דוא"ל </p>
@@ -90,20 +91,20 @@
 		<p class="p18">תוכן הפנייה </p>
 	</div>
 	<div id="inputs">
-	<p class="p18"><input id="name" type="text"/></p>
-	<p class="p18"><input id="email" type="text"/></p>
-	<p class="p18"><input id="tel" type="text"/></p>
-	<p class="p18"><input id="city" type="text"/></p>
-	<p class="p18"><textarea id="details"></textarea></p>
+	<p class="p18"><input id="name" name="name" type="text"/></p>
+	<p class="p18"><input id="email" name="_replyto" type="email"/></p>
+	<p class="p18"><input id="tel" name="phone" type="text"/></p>
+	<p class="p18"><input id="city" name="city" type="text"/></p>
+	<p class="p18"><textarea id="details" name="content"></textarea></p>
+	<input type="hidden" name="_next" value="http://www.homenaway.co.il/contact.html" />
 	</div>
-<div style="clear:both;"></div>	
+	<div style="clear:both;"></div>	
 	<div id="contact_send">
-<a href="" onclick="sendMe();return false;">
-	<img src="images/contact_send.png" alt=""/>
-</a>
-<br/>
-<div id="fid"></div>
-</div>
+		<button type="submit" style="width: 169px; height:41px; font-size:19px; border-radius:10px; border-style:none; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#F0DB8D), to(#FEc445));">צרו עמנו קשר >></button>	
+	<br/>
+	<div id="fid"></div>
+	</div>
+</form>
 </div>
 
 
